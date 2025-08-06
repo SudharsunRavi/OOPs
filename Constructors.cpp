@@ -1,0 +1,24 @@
+class Employee {
+private:
+    int salary;
+
+public:
+    string employeeName;
+    // Constructor
+    Employee() {
+        employeeName = "John Doe";
+        salary = 5000;
+    }
+
+    void setName(string s) {
+        employeeName = s;
+    }
+
+    void setSalary(int val) {
+        salary = val;
+    }
+
+    int getSalary() {
+        return salary;
+    }
+};
